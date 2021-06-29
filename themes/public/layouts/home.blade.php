@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>{{ Theme::getMetaTitle() }} - Zingmydeal</title>
+        <meta name="description" content="{{ Theme::getMetaDesctiption() }}">
+        <meta name="keyword" content="{{ Theme::getMetaKeyword() }}">
+        <meta name="tags" content="{{ Theme::getMetaTag() }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&display=swap" rel="stylesheet">
+        <link rel="icon" href="{{url('favicon.ico')}}" type="image/x-icon" />
+        {!! Theme::asset()->styles() !!}
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        {!! Theme::asset()->scripts() !!}
+    </head>
+
+    <body class="electronics-body">
+       
+        {!! Theme::partial('header1') !!}
+        {!! Theme::content() !!}
+        {!! Theme::partial('footer') !!}
+        {!! Theme::asset()->container('footer')->scripts() !!}
+    </body>
+</html>

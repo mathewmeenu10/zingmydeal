@@ -1,0 +1,16 @@
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~magnific-popup/dist/magnific-popup.css";
+@import "~font-awesome/css/font-awesome.min.css";
+@import "~fotorama/fotorama.css";
+@import "../css/plugins.css";
+@import "../css/settings.css";

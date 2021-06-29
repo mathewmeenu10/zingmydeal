@@ -1,0 +1,16 @@
+{
+    "name": "litecms/public",
+    "description": "Public theme for lavalite cms.",
+    "keywords": ["Lavalite", "Public", "Theme"],
+    "license": "MIT",
+    "type": "lavalite-theme",
+    "require": {
+        "composer/installers": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ]
+}
